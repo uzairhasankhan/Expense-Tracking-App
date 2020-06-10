@@ -1,5 +1,5 @@
 import React,{useState}  from 'react';
-import Dinner from './Dinner';
+
 import './App.css';
 import { Msg } from './msg';
 

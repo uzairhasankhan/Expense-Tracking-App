@@ -9,7 +9,7 @@ function App() {
     
     return (<div className="App">
     <Msg counter={count}/>   
-    <h1>Value of counter is {count}</h1>
+    <h1>Value of counters is {count}</h1>
     <hr />
     <button className='App' onClick={
         ()=> setCount(++count) 

@@ -16,7 +16,7 @@ function App() {
     <h1>Value of counters is {count}</h1>
     
     
-    <button onClick={
+    <button className="Button" onClick={
         ()=> setCount(++count) 
     }> 
      Update Counter</button>
@@ -28,7 +28,7 @@ function App() {
     
      <br />
     
-    <button onClick={()=> setDay(!isLite)}> Set Light</button>
+    <button className="Button" onClick={()=> setDay(!isLite)}> Set Light</button>
     </div>
     );
 }

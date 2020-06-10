@@ -1,7 +1,7 @@
 import React,{useState}  from 'react';
 
 import './App.css';
-import { Msg } from './msg';
+
 
 
 function App() {

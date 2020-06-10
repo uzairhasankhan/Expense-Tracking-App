@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Dinner(props) {
+    
 
     return ( <div>
     <h1>We will eat {props.dishName}.</h1>
@@ -8,11 +9,5 @@ function Dinner(props) {
     </div>
     );
     }
-
-    // class AppClass extends React.Component {
-    //     this.state = {}
-    //     constructor
-        
-    // }
 
 export default Dinner;

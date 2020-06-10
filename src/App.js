@@ -1,13 +1,20 @@
-import React from 'react';
+import React,{useState}  from 'react';
 import Dinner from './Dinner';
 import './App.css';
+import { Msg } from './msg';
 
 
 function App() {
+    let [count, setCount] = useState(100)
+    
     return (<div className="App">
-    <h1>Expense Tracking App</h1>
+    <Msg counter={count}/>   
+    <h1>Value of counter is {count}</h1>
     <hr />
-    <Dinner dishName="Chicken Biryani" />
+    <button className='App' onClick={
+        ()=> setCount(++count) 
+    }> 
+     Update Counter</button>
     </div>
     );
 }

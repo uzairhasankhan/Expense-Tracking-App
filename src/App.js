@@ -13,7 +13,7 @@ function App() {
         </p>
         
         <p>
-            Edited by Uzair Hasan.
+            Edited by Uzair Hasan and Taha Khan.
 
         </p>
         <a className = "App-link"

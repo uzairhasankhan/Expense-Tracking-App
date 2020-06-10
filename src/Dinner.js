@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Dinner() {
+function Dinner(props) {
 
     return ( <div>
-    <h1>We will eat Beef Biryani.</h1>
+    <h1>We will eat {props.dishName}.</h1>
     <h1>While Abu will eat Beaf Curry with Roti .</h1>
     </div>
     );

@@ -7,7 +7,12 @@ function Dinner(props) {
     <h1>While Abu will eat Beaf salan with Roti .</h1>
     </div>
     );
-    
-}
+    }
+
+    // class AppClass extends React.Component {
+    //     this.state = {}
+    //     constructor
+        
+    // }
 
 export default Dinner;
